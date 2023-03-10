@@ -20,7 +20,7 @@ body {
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: calc(
-    (100% - (1.5rem * (var(--per-view) - 1))) / var(--per-view)
+    (100% - (1.5rem * (var(--images-per-view) - 1))) / var(--images-per-view)
   );
   grid-gap: 1.5rem;
   position: relative;
